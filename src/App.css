@@ -263,7 +263,7 @@ body{
 .card-item .priceItem{
   color:#c8102e;
 }
-.card-item.quantityItem .quantityItemCount{
+.card-item .quantityItem .quantityItemCount{
   border:1px solid rgba(180, 180, 180, 1);
   font-size:18px;
   padding :0px 12px;
