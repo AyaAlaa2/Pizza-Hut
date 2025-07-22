@@ -11,7 +11,7 @@ export default function FilterItems({data}) {
                         menuItemsElement.filter((itemFil) => (
                            itemFil.category==data
                         )).map((item)=>
-                         <Item key={item.id} id={item.id} name={item.name} description={item.description} price={item.price} image={`/Img/${item.image}`} loved = {item.isLoved} inCart={item.inCart} quantity={item.quantity}/> ) 
+                         <Item key={item.id} id={item.id} name={item.name} description={item.description} price={item.price} image={`Img/${item.image}`} loved = {item.isLoved} inCart={item.inCart} quantity={item.quantity}/> ) 
                     }
                 </Row>
         )

@@ -17,7 +17,7 @@ export default function Header() {
     return (
         <Navbar bg="white" expand="lg" className={`navbar shadow-sm position-fixed top-0 start-0 p-0 z-3 ${isOrderPage ? 'w-75' : 'w-100'}`}>
             <Container>
-                <Navbar.Brand href="/" className="logoImg fw-bold fs-4">
+                <Navbar.Brand href="/Pizza-Hut/" className="logoImg fw-bold fs-4">
                     <img src={pizzaImage} alt='pizza Hut logo' />
                 </Navbar.Brand>
 

@@ -16,7 +16,7 @@ export default function MenuCategories() {
             <Row className="justify-content-center mt-5 mb-5">
                 {
                     menuCategoryItem.map((item) => (
-                        <MenuItems key={item.id} id={item.id} image={`/Img/${item.image}`} title={item.title} />
+                        <MenuItems key={item.id} id={item.id} image={`Img/${item.image}`} title={item.title} />
                     ))
                 }
             </Row>
