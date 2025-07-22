@@ -1,9 +1,12 @@
 {
+  "homepage": "https://ayaalaa2.github.io/Pizza-Hut/",
   "name": "pizzahut",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
@@ -12,6 +15,7 @@
   "dependencies": {
     "bootstrap": "^5.3.7",
     "firebase": "^12.0.0",
+    "gh-pages": "^6.3.0",
     "react": "^19.1.0",
     "react-bootstrap": "^2.10.10",
     "react-dom": "^19.1.0",
