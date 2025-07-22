@@ -19,7 +19,7 @@ function App() {
 
   return (
     <>
-    <BrowserRouter>
+    <BrowserRouter basename="/Pizza-Hut">
       <Header />
       <Routes>
         <Route path='/' element={<Home/>}/>
