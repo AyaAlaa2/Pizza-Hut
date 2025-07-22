@@ -15,7 +15,7 @@ export default function Cart() {
         <div>
         <div>
           <p className="fs-6 mt-2" >Your basket looks empty at the moment. Why not add something delicious from Our Menu?</p>
-          <img src="/Img/Pizza Hut_cart.png" className="w-100 mt-3 pt-3" style={{height : '230px'}}/>
+          <img src="/Pizza-Hut/Img/Pizza Hut_cart.png" className="w-100 mt-3 pt-3" style={{height : '230px'}}/>
         </div>
        </div>
       ) : (
